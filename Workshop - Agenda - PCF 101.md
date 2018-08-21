@@ -9,7 +9,7 @@
 
 ### Join Pivotal for a hands­-on workshop to introduce key concepts in modern cloud native application development and delivery. This one­ day workshop will cover general cloud native application trends and principles, including microservices, continuoous delivery and devops. We will also cover an overview of Cloud Foundry (our cloud native platform), relevant Spring projects, and how you can get involved as we go on this cloud native journey. 
 
-### Learn production­ ready techniques for developing and deploying cloud native applications using industry best practices, Spring Boot, and Pivotal Cloud Foundry.  You will also get hands­-on, with technical labs in this session.
+### Learn production­ ready techniques for developing and deploying cloud native applications using industry best practices, Spring Boot, and Pivotal Cloud Foundry.  You will also get hands­-on with technical labs in this session.
 
 #### Space is limited. [Reserve your seat today.]()
 
@@ -25,8 +25,8 @@ Time | Activity | Details
 9:00 AM ­9:30 AM | Kickoff | *Where we are and where we are going*
 9:30 AM ­10:15 AM | Cloud Native Introduction  | *Industry Trends and Overview including: 12 Factor Apps, Microservices and Cloud Platforms*
 10:15 AM 10:30 AM | Break
-10:30 AM 11:15 AM | Microservices | *Why microservices? Architecture, DDD, Common patterns, Challenges*
-11:15 AM 12:00 AM | CI/CD | *Pipelines (jenkings/concourse), all code for release cycle (environments, tests, manual to prod)?*
+10:30 AM 11:15 AM | Microservices | *Comparison of microservices to traditional monolithic developmen around: Architecture, DDD, Patterns, Challenges*
+11:15 AM 12:00 AM | CI/CD | *(Demo) Common pipelines for building, testing and releasing your microservices*
 12:00 PM ­12:30 PM | Lunch | *Lunch will be provided*
 12:30 PM ­1:00 PM | Panel Discussion | *Ask us anything!*
 1:00 PM ­2:00 PM | Spring Boot Primer | *Getting started with Spring Boot.  Let’s make an app!*
@@ -51,8 +51,12 @@ Time | Activity | Details
 
 ---
 
-Caleb TODO:
-* Look into auto registration
-* Look into proxy access to PWS/Github
-* Determine pre-built vs on-the-spot
+TODO:
+* (Caleb) Look into registration feeding PCF account setup (accounts, spaces)
+    * PAL has tools for auto-setup and auto-teardown
+* (AE) Coordinate breakfast 
+* (Caleb) Look into proxy access to PWS/Github
+* (Caleb) Determine pre-built vs on-the-spot
     * Build ms vs "here's how PCF works"
+        * The latter will use a pre-packaged IDE setup
+* (Caleb) Determine CI/CD pipeline demo code + walkthrough
